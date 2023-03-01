@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+.header {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(0, 152, 121, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 152, 121, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(0, 152, 121, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#009879', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(0, 152, 121, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 152, 121, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.header {
+  height: 6rem;
+  /* border-bottom: 2px solid #fff; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 2px 2px black
+  /* box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.header form {
+  margin-left: 5rem;
+}
+
+.header form input {
+  width: 300px;
+  height: 2rem;
+  border-radius: 5px;
+  transition: 250ms ease-in-out;
+}
+
+.header form input:hover,
+.header form input:active {
+  /* border: 1px solid white; */
+  box-shadow: 2px 2px 4px;
+}

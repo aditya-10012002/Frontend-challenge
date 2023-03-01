@@ -1,0 +1,27 @@
+.trending ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.trending ul li {
+    padding: 5px 0;
+}
+
+.trending ul li button {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  transition: 250ms ease-in-out;
+}
+
+.trending ul li button:hover,
+.trending ul li button:active {
+    /* color: rgb(41, 41, 41); */
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
