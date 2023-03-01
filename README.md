@@ -27,10 +27,8 @@ Optional functionalities for the Library app -
 To run on the local machine:<br>
 - Download the code and extract it.
 - Then in the project folder -
-> npm i
-
-
-> npm start
+    * `npm i`
+    * `npm start`
 
 With this the react app will run on localhost:3000
 
