@@ -21,3 +21,21 @@ Optional functionalities for the Library app -
 
 1. Caching the API call responses to avoid making repetitive API calls.
 2. Have a way for the user to input in a subject and show a page which lists the top 10 books on this subject.
+
+---
+
+To run on the local machine:<br>
+- Download the code and extract it.
+- Then in the project folder -
+> npm i
+
+
+> npm start
+
+With this the react app will run on localhost:3000
+
+---
+
+Made this is around 6 - 7 hrs.<br>
+Got to revise some concepts related to React.<br>
+I am still learning React so surely this App could be enhanced in the future when I will be more experienced with it.
